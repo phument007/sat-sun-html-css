@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --light-500:#fff;
+    --light-400:#ece5e5ec;
+    --gray-500: #9c9595;
+    --dark-100:#151414;
+    --dark-red:#e62121;
+    --dark-blue:rgb(8, 8, 114);
+
+}
+::selection{
+    background-color: rgb(207, 149, 74);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
