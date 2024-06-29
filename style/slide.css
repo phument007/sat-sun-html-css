@@ -23,18 +23,18 @@
 .block-title > .title {
     width: 50%;
     height: 100%;
-    padding: 75px 50px;
-    color: rgb(229, 15, 211);
+    padding: 75px 20px;
+    color: white ;
 }
 .title > h1 {
-    font-size: 150px;
+    font-size: 130px;
 }
 
 .block-title > .description {
     width: 50%;
     height: 100%;
     padding: 180px 70px;
-    color: rgb(215, 12, 242);
+    color: white;
 }
 .description > h1 {
     margin-top: 30px;

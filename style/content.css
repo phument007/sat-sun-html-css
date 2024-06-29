@@ -7,10 +7,12 @@ main {
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  /* background: #000; */
 }
 main > .card {
-  width: 242px;
+  width: 305px;
   height: 480px;
+ 
 }
 .card > .img-detail {
   width: 100%;
@@ -19,13 +21,54 @@ main > .card {
   cursor: pointer;
   position: relative;
 }
+
+.img-detail >  .add_cart {
+  display: none;
+  width: 100px;
+  padding: 10px 15px;
+  background-color: aqua;
+  position: relative;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+
+
+#icon:hover + .add_cart{
+  
+  display: block;
+}
+
+
+.add_cart > .clippy {
+  width: 15px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: 15px;
+  right: -15px;
+  clip-path: polygon(0% 0%, 0 0, 100% 50%, 0 100%, 0% 100%);
+}
+
 .img-detail > .fa-cart-shopping{
    position: absolute;
-   top: 10px;
+   top: 20px;
    right: 10px;
    font-size: 20px;
    color: rgb(90, 91, 91);
+   display: none;
 }
+
+.img-detail:hover > .fa-cart-shopping{
+  display: block;
+}
+
+
+
+
+
+
 
 .img-detail > img {
    width: 100%;
