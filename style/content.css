@@ -7,10 +7,10 @@ main {
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  /* background: #000; */
+  background: #000;
 }
 main > .card {
-  width: 305px;
+  width: 242px;
   height: 480px;
  
 }

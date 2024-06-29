@@ -18,7 +18,6 @@
     width: 65%;
     height: 100%;
     margin: auto;
-   
     display: flex;
 }
 .detail > .shipping {
@@ -41,9 +40,8 @@
 }
 
 .send_email > #email {
-    width: 78%;
+    width: 70%;
     padding: 15px 10px;
-   
     outline: none;
 }
 
@@ -63,26 +61,23 @@
 }
 
 
-
-
 /* Design about page */
 .footer > .about {
     width: 65%;
     height: 50%;
     background-color: aqua;
     margin: auto;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 4px;
-    color:white;
+    display: flex;
+    justify-content: space-between;
 }
 
-.footer > .about > .detail {
-    width: 310px;
+.about > .detail {
+    width: 24.5%;
     height: 100%;
-    background-color: rgb(106, 210, 10);
-    padding: 50px 0px;
+    background-color: rgb(57, 146, 146);
+
 }
+
 
 .about > .detail > p {
     margin-top: 15px;
