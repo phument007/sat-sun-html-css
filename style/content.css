@@ -7,10 +7,9 @@ main {
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background: #000;
 }
 main > .card {
-  width: 242px;
+  width: 300px;
   height: 480px;
  
 }
@@ -22,8 +21,11 @@ main > .card {
   position: relative;
 }
 
+.fa-cart-shopping:hover + .add_cart{
+  display: block;
+}
+
 .img-detail >  .add_cart {
-  display: none;
   width: 100px;
   padding: 10px 15px;
   background-color: aqua;
@@ -31,14 +33,9 @@ main > .card {
   position: absolute;
   top: 10px;
   right: 50px;
+  display: none;
 }
 
-
-
-#icon:hover + .add_cart{
-  
-  display: block;
-}
 
 
 .add_cart > .clippy {
@@ -59,15 +56,9 @@ main > .card {
    color: rgb(90, 91, 91);
    display: none;
 }
-
-.img-detail:hover > .fa-cart-shopping{
+.img-detail:hover > .fa-cart-shopping {
   display: block;
 }
-
-
-
-
-
 
 
 .img-detail > img {
